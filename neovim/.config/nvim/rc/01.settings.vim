@@ -10,7 +10,7 @@ if has("termguicolors")
     set termguicolors
 endif
 
-set guifont=Fira\ Code:h14
+"set guifont=Fira\ Code:h14
 
 filetype off  " required!
 filetype plugin indent on     " required!
@@ -23,7 +23,7 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 
 "inoremap jj <Esc>
  
-set guifont=Source\ Code\ Pro\ for\ Powerline\ :h18
+"set guifont=Source\ Code\ Pro\ for\ Powerline\ :h18
 
 "improve autocomplete menu color
 highlight Pmenu ctermbg=238 gui=bold
@@ -97,10 +97,10 @@ nmap w- :resize -3<CR>
 nmap w= :resize +3<CR>
 
 " code search
-let g:ackprg = 'ag --nogroup --nocolor --column'
+"let g:ackprg = 'ag --nogroup --nocolor --column'
 
-set updatetime=100
-au TextChangedI * GitGutter
+"set updatetime=100
+"au TextChangedI * GitGutter
 
 " search word under cursor
 noremap <Leader>s :Rg <cword><cr>

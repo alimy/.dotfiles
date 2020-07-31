@@ -8,7 +8,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'vim-scripts/xml.vim'
-Plug 'airblade/vim-gitgutter'
+
+"Plug 'airblade/vim-gitgutter'
+
 Plug 'jiangmiao/auto-pairs'
 Plug 'flazz/vim-colorschemes'
 Plug 'tpope/vim-dispatch'
