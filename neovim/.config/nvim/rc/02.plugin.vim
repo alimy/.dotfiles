@@ -8,6 +8,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'vim-scripts/xml.vim'
+Plug 'projectfluent/fluent.vim'
 
 "Plug 'airblade/vim-gitgutter'
 
